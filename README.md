@@ -1,6 +1,4 @@
-**Locksmith** es una herramienta desarrollada en Python para realizar **ataques de fuerza bruta** contra diferentes servicios y protocolos, incluyendo aplicaciones web, bases de datos y servicios de red como SSH y RDP.  
-
-El proyecto nació como práctica de laboratorio y se ha ampliado con múltiples funcionalidades que lo convierten en un framework flexible, extensible y con medidas evasivas para evitar detecciones básicas.
+**Locksmith** es una herramienta desarrollada en Python para realizar **ataques de fuerza bruta** contra diferentes servicios y protocolos, incluyendo aplicaciones web, bases de datos y servicios de red como SSH y RDP.
 
 ---
 
@@ -228,31 +226,3 @@ La aplicación presenta los resultados de forma clara en consola, mostrando:
 - Archivos y directorios enumerados.  
 - Contenido extraído mediante LFI.  
 
-
-
-
-## ⚠️ Aviso legal
-
-Este software se ha desarrollado **con fines académicos y de auditoría de seguridad**.  
-El uso de esta herramienta contra sistemas sin autorización expresa es **ilegal** y puede tener consecuencias penales.  
-El autor no se hace responsable del uso indebido de la herramienta.  
-
----
-
-## 📚 Roadmap
-
-- [ ] Ampliar soporte a otros protocolos (FTP, SMTP, POP3).  
-- [ ] Añadir soporte para proxys y rotación de IPs.  
-- [ ] Mejorar la interfaz CLI con `argparse` avanzado.  
-- [ ] Añadir integración con bases de datos para almacenar resultados.
-- [ ] Añadir soporte para detección de XSS reflejado en formularios.  
-- [ ] Exportar resultados en formatos JSON y CSV.  
-- [ ] Integración con proxys y rotación de cabeceras.  
-- [ ] Automatizar payloads comunes para LFI.  
-
----
-
-## ✨ Créditos
-
-Desarrollado en Python por Felix Alberto Castan Cid  
-Inspirado en prácticas de **seguridad ofensiva** y herramientas de pentesting como Hydra, Medusa y Burp Intruder.
